@@ -699,6 +699,7 @@
   border-radius: 6px;
   background: rgba(243, 245, 246, 1);
 }
+
 .small_product_box:nth-child(odd) {
   margin-right: 30px;
 }
@@ -726,12 +727,6 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
-}
-
-.spec_product_frame .small_product_box img {
-  position: absolute;
-  right: 30px;
-  top: 40px;
 }
 
 .spec_product_frame .small_product_box img {
