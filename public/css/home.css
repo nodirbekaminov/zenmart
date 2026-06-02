@@ -38,6 +38,16 @@
   border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 
+.container .next_prev_box {
+  width: 25px;
+}
+
+.container .next_prev_box img {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
 /* Pagination Box */
 .container .pagionation_box {
   margin-top: 30px;
@@ -415,16 +425,6 @@
   justify-content: space-between;
 }
 
-.selling_product_frame .next_prev_box {
-  width: 25px;
-}
-
-.selling_product_frame .next_prev_box img {
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-}
-
 .selling_product_frame .product_wrapper .product_boxes {
   position: relative;
   width: 1224px;
@@ -732,11 +732,7 @@
 .spec_product_frame .small_product_box img {
   position: absolute;
   right: 30px;
-  top: 40px;
+  bottom: 15px;
 }
 
-.spec_product_frame .small_product_box .img_bott {
-  position: absolute;
-  right: 30px;
-  top: 80px;
-}
+/* TV Product  */
