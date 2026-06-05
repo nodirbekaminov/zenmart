@@ -19,6 +19,16 @@ p {
   display: flex;
 }
 
+.container .contact_title {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
 /* Navbar Section */
 
 .navbar_frame {
@@ -257,4 +267,236 @@ p {
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* Footer Frame */
+
+.footer_frame {
+  position: relative;
+  padding: 90px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: rgb(230, 232, 233);
+}
+
+.footer_frame .spec_title {
+  margin-bottom: 30px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.footer_frame .container {
+  flex-direction: column;
+}
+
+.footer_frame .container .footer_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_frame .footer_top .contact_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_frame .contact_box .contact_main {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.footer_frame .contact_main img {
+  width: 35px;
+  height: 30px;
+}
+
+.footer_frame .contact_main div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_frame div strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer_frame div span {
+  margin-top: 10px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_frame .support_box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.footer_frame .support_box a {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer_frame .follow_box {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_frame .follow_box .follow_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_frame .follow_main .media_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_frame .media_box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_frame .media_box i {
+  margin-right: 25px;
+}
+
+.footer_frame .follow_main .mobile_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer_frame .mobile_box img {
+  width: 24px;
+  height: 16px;
+}
+
+.footer_frame .mobile_box span {
+  margin-left: 20px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer_frame .follow_main .card_box {
+  width: 272px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_frame .container .footer_bott {
+  margin-top: 90px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-top: 1px solid rgba(234, 234, 234, 1);
+}
+
+.footer_frame .footer_bott .footer_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_frame .footer_main .bottom_left {
+  width: 940px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_frame .bottom_left span {
+  margin-right: 60px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: 'Jost';
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_frame .footer_main .bottom_right {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_frame .bottom_right .footer_select_box {
+  padding: 10px 20px;
+  width: 187px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.footer_frame .footer_select_box span {
+  margin-bottom: 10px;
+  color: rgba(98, 105, 116, 1);
+
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_frame .footer_select_box select {
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  width: 70px;
+  height: 90%;
+  cursor: pointer;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
 }
