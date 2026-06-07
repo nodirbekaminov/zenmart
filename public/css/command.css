@@ -1,6 +1,4 @@
-:root {
-  --font: 'Jost';
-}
+@import url(variables.css);
 
 html,
 body {
@@ -259,8 +257,16 @@ p {
   font-weight: 500;
 }
 
+.navbar_frame .navbar_route_menu a:hover {
+  color: #f5c34b;
+}
+
 .navbar_frame .navbar_route_menu a.title {
   color: #f5c34b;
+}
+
+.navbar_frame .navbar_route_menu a.title:hover {
+  color: #ffff;
 }
 
 .navbar_frame .sorting_menu span {
