@@ -107,6 +107,7 @@
 
 .container .next_prev_box {
   width: 25px;
+  z-index: 100;
 }
 
 .container .next_prev_box img {
@@ -894,10 +895,16 @@
 }
 
 .event_frame .container .event_product_wrapper {
+  position: relative;
   width: 930px;
   height: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.event_frame .eventSwiper {
+  flex: 5;
 }
 
 .event_frame .event_product_wrapper .event_product_boxes {
@@ -907,7 +914,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .event_frame .event_product_boxes .event_product_box {
